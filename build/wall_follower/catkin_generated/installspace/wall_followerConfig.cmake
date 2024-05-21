@@ -67,14 +67,14 @@ set(wall_follower_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(wall_follower_SOURCE_PREFIX /home/safi/mobile_rpbptics_ws/src/wall_follower)
-  set(wall_follower_DEVEL_PREFIX /home/safi/mobile_rpbptics_ws/devel)
+  set(wall_follower_SOURCE_PREFIX /home/safi/mobile_robotic/src/wall_follower)
+  set(wall_follower_DEVEL_PREFIX /home/safi/mobile_robotic/devel)
   set(wall_follower_INSTALL_PREFIX "")
   set(wall_follower_PREFIX ${wall_follower_DEVEL_PREFIX})
 else()
   set(wall_follower_SOURCE_PREFIX "")
   set(wall_follower_DEVEL_PREFIX "")
-  set(wall_follower_INSTALL_PREFIX /home/safi/mobile_rpbptics_ws/install)
+  set(wall_follower_INSTALL_PREFIX /home/safi/mobile_robotic/install)
   set(wall_follower_PREFIX ${wall_follower_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/safi/mobile_rpbptics_ws/install/lib;/opt/ros/noetic/lib)
+    foreach(path /home/safi/mobile_robotic/install/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

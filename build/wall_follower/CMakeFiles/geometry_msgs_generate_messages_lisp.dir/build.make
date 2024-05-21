@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/safi/mobile_rpbptics_ws/src
+CMAKE_SOURCE_DIR = /home/safi/mobile_robotic/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/safi/mobile_rpbptics_ws/build
+CMAKE_BINARY_DIR = /home/safi/mobile_robotic/build
 
 # Utility rule file for geometry_msgs_generate_messages_lisp.
 
@@ -63,10 +63,10 @@ wall_follower/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build: geometr
 .PHONY : wall_follower/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build
 
 wall_follower/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean:
-	cd /home/safi/mobile_rpbptics_ws/build/wall_follower && $(CMAKE_COMMAND) -P CMakeFiles/geometry_msgs_generate_messages_lisp.dir/cmake_clean.cmake
+	cd /home/safi/mobile_robotic/build/wall_follower && $(CMAKE_COMMAND) -P CMakeFiles/geometry_msgs_generate_messages_lisp.dir/cmake_clean.cmake
 .PHONY : wall_follower/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/clean
 
 wall_follower/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/depend:
-	cd /home/safi/mobile_rpbptics_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/safi/mobile_rpbptics_ws/src /home/safi/mobile_rpbptics_ws/src/wall_follower /home/safi/mobile_rpbptics_ws/build /home/safi/mobile_rpbptics_ws/build/wall_follower /home/safi/mobile_rpbptics_ws/build/wall_follower/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/safi/mobile_robotic/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/safi/mobile_robotic/src /home/safi/mobile_robotic/src/wall_follower /home/safi/mobile_robotic/build /home/safi/mobile_robotic/build/wall_follower /home/safi/mobile_robotic/build/wall_follower/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : wall_follower/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/depend
 

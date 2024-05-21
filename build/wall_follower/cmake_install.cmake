@@ -1,8 +1,8 @@
-# Install script for directory: /home/safi/mobile_rpbptics_ws/src/wall_follower
+# Install script for directory: /home/safi/mobile_robotic/src/wall_follower
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/safi/mobile_rpbptics_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/safi/mobile_robotic/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/safi/mobile_rpbptics_ws/build/wall_follower/catkin_generated/installspace/wall_follower.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/safi/mobile_robotic/build/wall_follower/catkin_generated/installspace/wall_follower.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/wall_follower/cmake" TYPE FILE FILES
-    "/home/safi/mobile_rpbptics_ws/build/wall_follower/catkin_generated/installspace/wall_followerConfig.cmake"
-    "/home/safi/mobile_rpbptics_ws/build/wall_follower/catkin_generated/installspace/wall_followerConfig-version.cmake"
+    "/home/safi/mobile_robotic/build/wall_follower/catkin_generated/installspace/wall_followerConfig.cmake"
+    "/home/safi/mobile_robotic/build/wall_follower/catkin_generated/installspace/wall_followerConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/wall_follower" TYPE FILE FILES "/home/safi/mobile_rpbptics_ws/src/wall_follower/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/wall_follower" TYPE FILE FILES "/home/safi/mobile_robotic/src/wall_follower/package.xml")
 endif()
 

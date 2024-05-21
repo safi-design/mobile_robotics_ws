@@ -1,2 +1,2 @@
 wall_follower
--DCATKIN_DEVEL_PREFIX=/home/safi/mobile_rpbptics_ws/devel -DCMAKE_INSTALL_PREFIX=/home/safi/mobile_rpbptics_ws/install -G Unix Makefiles
+-DCATKIN_DEVEL_PREFIX=/home/safi/mobile_robotic/devel -DCMAKE_INSTALL_PREFIX=/home/safi/mobile_robotic/install -G Unix Makefiles

@@ -1,4 +1,4 @@
-prefix=/home/safi/mobile_rpbptics_ws/devel
+prefix=/home/safi/mobile_robotic/devel
 
 Name: wall_follower
 Description: Description of wall_follower

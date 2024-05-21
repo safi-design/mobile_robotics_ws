@@ -7,7 +7,7 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/safi/mobile_rpbptics_ws/devel:$CMAKE_PREFIX_PATH"
-export PWD='/home/safi/mobile_rpbptics_ws/build'
-export ROSLISP_PACKAGE_DIRECTORIES='/home/safi/mobile_rpbptics_ws/devel/share/common-lisp'
-export ROS_PACKAGE_PATH="/home/safi/mobile_rpbptics_ws/src:$ROS_PACKAGE_PATH"
+export CMAKE_PREFIX_PATH="/home/safi/mobile_robotic/devel:$CMAKE_PREFIX_PATH"
+export PWD='/home/safi/mobile_robotic/build'
+export ROSLISP_PACKAGE_DIRECTORIES='/home/safi/mobile_robotic/devel/share/common-lisp'
+export ROS_PACKAGE_PATH="/home/safi/mobile_robotic/src:$ROS_PACKAGE_PATH"
